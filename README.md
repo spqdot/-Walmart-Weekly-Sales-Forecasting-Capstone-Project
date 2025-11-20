@@ -35,3 +35,11 @@ AR (Autoregressive)
 ARIMA (Autoregressive Integrated Moving Average)
 
 SARIMA (Seasonal Autoregressive Integrated Moving Average) - selected as the best model.
+
+Key Results and Observations Model Performance
+The models were evaluated using Root Mean Squared Error (RMSE).ModelRMSE (Overall Sales)SARIMA 1,287,024.58, AR 1,799,834.98, ARIMA1,849,550.37
+The SARIMA model demonstrated the lowest RMSE, confirming its superior ability to capture the inherent seasonality and provide the most accurate forecasts for the overall time series data.
+Store-Specific Forecasting 
+Best-performing Store (Store 20): The model was highly effective, accurately predicting sales trends and the seasonal spikes that occur, particularly in December.
+Worst-performing Store (Store 39): In contrast, the model's forecasts for this store were highly inconsistent and unreliable, struggling to capture any meaningful pattern, likely due to low sales volume and higher data variability.
+🚀 Technologies and LibrariesLanguage: PythonLibraries:pandas and numpy for data manipulationmatplotlib.pyplot and seaborn for data visualizationstatsmodels for time series modeling (AR, ARIMA, SARIMA)
