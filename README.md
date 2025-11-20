@@ -1,5 +1,6 @@
 # -Walmart-Weekly-Sales-Forecasting-Capstone-Project
- Walmart Weekly Sales Forecasting Capstone Project 📈 This project involves a comprehensive Time Series Analysis and Forecasting of Walmart's weekly sales data to predict future sales and identify key factors influencing performance across different store locations.
+ Walmart Weekly Sales Forecasting Capstone Project 
+ 📈 This project involves a comprehensive Time Series Analysis and Forecasting of Walmart's weekly sales data to predict future sales and identify key factors influencing performance across different store locations.
 🌟 Project Overview
 The primary objective of this capstone project is to develop an accurate forecasting model for Walmart's Weekly Sales using historical data and various external factors like holidays, temperature, fuel price, and economic indicators.The analysis is structured around data cleaning, exploratory data analysis (EDA), time series decomposition, and the application of various forecasting models to both the aggregated company-wide sales and individual high/low-performing stores.
 💾 DataThe project utilizes the Walmart Weekly Sales Dataset, which contains 6,435 weekly records.Column NameDescriptionStoreThe store number (1 to 45).DateThe week of sales.Weekly_SalesTarget variable: Sales for the given week.Holiday_Flag1 if the week includes a major holiday, 0 otherwise.TemperatureAverage temperature in the region.Fuel_PriceCost of fuel in the region.CPIConsumer Price Index.UnemploymentUnemployment rate.
